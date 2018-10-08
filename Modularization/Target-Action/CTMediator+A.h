@@ -10,6 +10,6 @@
 
 @interface CTMediator (A)
 
-- (UIViewController *)Action_viewController:(NSDictionary *)params;
+- (UIViewController *)aViewController;
 
 @end

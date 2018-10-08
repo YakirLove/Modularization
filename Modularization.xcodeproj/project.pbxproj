@@ -19,6 +19,7 @@
 		3124310121085E46007C1CDD /* URLRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 3124310021085E46007C1CDD /* URLRouter.m */; };
 		312431042108694C007C1CDD /* ModuleManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 312431032108694C007C1CDD /* ModuleManager.m */; };
 		3124310921086F84007C1CDD /* AProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = 3124310821086F84007C1CDD /* AProtocol.m */; };
+		314DA60D216B47030028B824 /* Target-A.m in Sources */ = {isa = PBXBuildFile; fileRef = 314DA60C216B47030028B824 /* Target-A.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +45,8 @@
 		312431032108694C007C1CDD /* ModuleManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ModuleManager.m; sourceTree = "<group>"; };
 		312431052108698C007C1CDD /* AProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AProtocol.h; sourceTree = "<group>"; };
 		3124310821086F84007C1CDD /* AProtocol.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AProtocol.m; sourceTree = "<group>"; };
+		314DA60B216B47030028B824 /* Target-A.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Target-A.h"; sourceTree = "<group>"; };
+		314DA60C216B47030028B824 /* Target-A.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Target-A.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +124,8 @@
 				312430F621085BB0007C1CDD /* CTMediator.m */,
 				312430FC21085D47007C1CDD /* CTMediator+A.h */,
 				312430FD21085D47007C1CDD /* CTMediator+A.m */,
+				314DA60B216B47030028B824 /* Target-A.h */,
+				314DA60C216B47030028B824 /* Target-A.m */,
 			);
 			path = "Target-Action";
 			sourceTree = "<group>";
@@ -197,6 +202,7 @@
 			files = (
 				312430E221085771007C1CDD /* ViewController.m in Sources */,
 				312430FB21085BDA007C1CDD /* AViewController.m in Sources */,
+				314DA60D216B47030028B824 /* Target-A.m in Sources */,
 				312430ED21085773007C1CDD /* main.m in Sources */,
 				312431042108694C007C1CDD /* ModuleManager.m in Sources */,
 				312430DF21085771007C1CDD /* AppDelegate.m in Sources */,

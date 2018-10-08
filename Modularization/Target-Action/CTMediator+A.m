@@ -7,13 +7,12 @@
 //
 
 #import "CTMediator+A.h"
-#import "AViewController.h"
 
 @implementation CTMediator (A)
 
-- (UIViewController *)Action_viewController:(NSDictionary *)params;
+- (UIViewController *)aViewController
 {
-    AViewController *viewController = [[AViewController alloc] init];
-    return viewController;
+    UIViewController *controller = [self performTarget:@"A" action:@"aViewController" params:nil shouldCacheTarget:NO];
+    return controller;
 }
 @end

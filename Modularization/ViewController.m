@@ -71,7 +71,7 @@
     }
     else if(button.tag == 3)
     {
-        UIViewController *vc = [[CTMediator sharedInstance] Action_viewController:nil];
+        UIViewController *vc = [[CTMediator sharedInstance] aViewController];
         [self presentViewController:vc animated:YES completion:^{
             
         }];
